@@ -38,6 +38,7 @@ set path+=**
 
 map <F3> :tabp<cr>
 map <F4> :tabn<cr>
+map <F9> :YcmCompleter FixIt<CR>
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
